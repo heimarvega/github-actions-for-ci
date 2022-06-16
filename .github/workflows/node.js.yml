@@ -47,6 +47,7 @@ jobs:
       env:
         CI: true
   sonarcloud:
+      name: SonarCloud
       needs: test
       runs-on: ubuntu-latest
       steps:
